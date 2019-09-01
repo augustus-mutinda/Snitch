@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_upload_over_wifi"
+            android:summary="@string/auto_upload_pictures"
+            android:title="@string/title_auto_upload" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/snitch_features">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/charger_detection_key"
+            android:summary="@string/charger_summary"
+            android:title="@string/charger" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/motion_detection_key"
+            android:summary="@string/motion_summary"
+            android:title="@string/motion" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/proximity_preference_key"
+            android:summary="@string/proximity_summary"
+            android:title="@string/proximity" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_notifications">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:summary="@string/allow_loud_snitcher"
+            android:title="@string/snitcher_ringtone" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="notifications_new_message"
+            android:key="@string/key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/vibrate_on_snitch"
+            android:title="@string/title_vibrate" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_flash_light"
+            android:summary="@string/flash_light_summary"
+            android:title="@string/flash_light" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="I am an individual concerned with device security, hence this product" />
+
+        <Preference
+            android:summary="@string/onev"
+            android:title="@string/title_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

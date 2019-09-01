@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "987584610990",
+    "firebase_url": "https://snitch-18b45.firebaseio.com",
+    "project_id": "snitch-18b45",
+    "storage_bucket": "snitch-18b45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987584610990:android:f96e30b8b6678ee3",
+        "android_client_info": {
+          "package_name": "com.andrewodipo.snitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987584610990-d8baop4irnn0k41tt15hv7ns1etrj2p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andrewodipo.snitch",
+            "certificate_hash": "119e7e063cbefc6b309bc8c9f45144709d7d07f9"
+          }
+        },
+        {
+          "client_id": "987584610990-e6fgdnst52314bkm0oj8rlgk41i3semj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD69RZq1aqMkZqszWpadNQjI81YA4HZTVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987584610990-e6fgdnst52314bkm0oj8rlgk41i3semj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

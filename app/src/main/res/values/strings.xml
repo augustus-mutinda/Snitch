@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Snitch</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_to_snitch">Welcome to Snitch</string>
+    <string name="i_mma_snitch_for_you">I\'mma snitch for you...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="skip">Skip</string>
+    <string name="you_could_create_an_account">You could create an account...</string>
+    <string name="create_account">Create account</string>
+    <string name="nope_skip">Nope, skip</string>
+    <string name="snitch_logo">Snitch logo</string>
+    <string name="youremail_smth_smth">youremail@smth.smth</string>
+    <string name="continu">Continue</string>
+    <string name="type_in_your_email_to_get_started">Type in your email to get started</string>
+    <string name="welcome_back_please_log_in">Welcome back, please log in.</string>
+    <string name="your_password">Your password</string>
+    <string name="welcome_please_sign_up">Welcome, please sign up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign out</string>
+    <string name="system">System</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start_snitching">Start Snitching</string>
+
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="title_version">Version</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="snitcher_ringtone">Snitcher Ringtone</string>
+    <string name="allow_loud_snitcher">Allow loud snitcher ringtone</string>
+    <string name="vibrate_on_snitch">Vibrate on snitch</string>
+    <string name="onev">1.0</string>
+    <string name="key_flash_light">key_flash_light</string>
+    <string name="flash_light_summary">Flashing flash light</string>
+    <string name="flash_light">Flash light</string>
+    <string name="auto_upload_pictures">Auto upload pictures</string>
+    <string name="snitch_features">Snitch Features</string>
+    <string name="proximity_preference_key">proximity_preference_key</string>
+    <string name="proximity_summary">Snitch when picked from a pocket</string>
+    <string name="proximity">Proximity</string>
+    <string name="motion_detection_key">motion_detection_key</string>
+    <string name="motion_summary">Snitch when movement is detected</string>
+    <string name="motion">Motion</string>
+    <string name="charger_detection_key">charger_detection_key</string>
+    <string name="charger_summary">Snitch when charger is unplugged</string>
+    <string name="charger">Charger</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="device_id">Device id</string>
+    <string name="android_version">Android version</string>
+    <string name="device_name">Device name</string>
+    <string name="seems_empty_none_of_your_devices_snitched">Seems empty, none of your devices snitched!\nclick on first name and second name to set them</string>
+    <string name="type_here">Type here</string>
+    <string name="snitch_type">Snitch type</string>
+    <string name="date_of_snitch">Date of snitch</string>
+    <string name="co_ordinates">Co-ordinates</string>
+    <string name="please_set_up_a_password_and_a_pin">Please set up a password and a pin</string>
+    <string name="you_can_use_the_password_to_recover_the_pin_not_vice_versa">You can use the password to recover the pin, not vice versa!</string>
+    <string name="enter_a_pin">Enter a pin</string>
+    <string name="confirm_pin">Confirm pin</string>
+    <string name="please_set_a_pin">Please set a pin</string>
+    <string name="set">Set</string>
+</resources>
